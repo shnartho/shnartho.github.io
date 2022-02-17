@@ -1,0 +1,208 @@
+    h2{
+    color:rgb(10, 42, 10);
+    font-size: 30px;
+    
+    margin: 2%;
+    background-color: rgb(156, 38, 131);
+    text-align: center;
+}   
+head {
+    text-align: center;
+
+    text-shadow: 2px 2px #050303;
+    
+}
+
+
+input{
+    padding: 10px;
+    width: 150px;
+    font-size: 1rem;
+}
+input:focus {
+    border-color: red;
+    background-color: red;
+}
+a:hover {
+    color: red;
+}
+
+div[id]{
+    background-color: crimson;
+}
+
+
+p {
+    font-size: 2em;
+  }
+
+  article > span {
+      color: red;
+  }
+
+body {
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      
+    
+
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bgi {
+    
+      background-repeat: no repeat;
+      padding: 20em;
+      background-image: url(bg.jpg);
+      background-size: 100%;
+      background-position: 10px;
+      border-width: 10px;
+      border-style: groove;
+      border-color: crimson;
+  }
+  
+  .box-model{
+      background-color: green;
+      border: 0 solid red;
+      padding: 10px;
+      height: 100px;
+      width: 100px;
+      border: 30px solid blue;
+      margin: 40px;
+      position: static;
+  }
+  .box-model2{
+    background-color: rgb(128, 0, 68);
+    border: 0 solid rgb(255, 251, 0);
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid rgb(195, 0, 0);
+    margin: 40px;
+    position: absolute;
+    
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: small-caps;
+
+    text-shadow: 2px 2px #0c0b0b;
+      
+    line-height: 50%;
+}
+
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        color: red;
+    } 
+}
+@media print {
+    body {
+        color: black;
+    }
+}
+
+
+.buttonsub {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonsub span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonsub span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonsub:hover span {
+  padding-right: 25px;
+}
+
+.buttonsub:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+----------------    LAB 5    -----------
+ 
+.containerr {
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.containerr h1 {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 3em;
+}
+
