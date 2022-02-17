@@ -5,7 +5,11 @@ Ans: Here I have multiple websites with multiple pages. Therefore, to view any w
    shnartho.github.io/test5/index.html  <br>
    To view test6 website live then use the url like below, <br>
    shnartho.github.io/test6/index.html <br>
-
+   
+   
+## Repository 
+check folders, files and codes <br>
+https://github.com/shnartho/shnartho.github.io
    
    ++ so basically you have to add folder name and index file with the url shnartho.github.io
    
